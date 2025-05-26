@@ -16,7 +16,7 @@ submit.onclick = function (){
                 divisor ++
             }
         }
-        if( divisor == 2 || divisor == 1){
+        if( divisor == 2){
             result.textContent = `The number ${number} is prime`
         }
         else{
